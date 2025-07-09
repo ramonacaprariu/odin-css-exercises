@@ -1,0 +1,30 @@
+/* chaining selector */
+*.button {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+/* grouping selector */
+.first, 
+.second {
+    font-size: 35px;
+    font-family: 'Times New Roman', 'Helvetica', sans-serif;
+}
+
+.first {
+    background-color: pink;
+}
+
+.second {
+    background-color: purple;
+    color: white;
+}
