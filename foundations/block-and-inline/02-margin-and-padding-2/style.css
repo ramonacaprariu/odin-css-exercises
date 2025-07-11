@@ -25,3 +25,50 @@ button {
   background: white;
   border: 1px solid #eee;
 }
+
+/* my solution */
+
+.card {
+  padding: 8px;
+}
+
+.title {
+  font-size: 16px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.content {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 8px;
+}
+
+/* from TOP solution: could write padding out more succinctly: */
+/* .content {
+  margin-bottom: 8px;
+  padding: 16px 8px;
+} */
+
+.button-container {
+  padding: 8px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: auto;
+}
+
+/* from TOP solution, could rewrite padding and also margin */
+/* button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
+} */
